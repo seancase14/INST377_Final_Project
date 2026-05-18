@@ -1,0 +1,20 @@
+
+button {
+    display:block; 
+    margin: auto; 
+    height: 50px; 
+    width: 200px; 
+    background-color: crimson;
+}
+
+button:hover {
+    background-color: aliceblue;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}

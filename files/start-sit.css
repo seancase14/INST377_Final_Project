@@ -1,0 +1,110 @@
+
+#box { 
+    background: #fff; 
+    border-radius: 8px; 
+    padding: 25px; 
+    margin-bottom: 20px; 
+}
+
+#select-players { 
+    display: flex; 
+    gap: 20px; 
+}
+.select-group { 
+    display: flex; 
+    flex-direction: column; 
+    flex: 1; 
+    gap: 6px; 
+}
+.select-group input { 
+    padding: 8px; 
+    font-size: 14px; 
+    border: 1px solid lightgray; 
+    border-radius: 6px; }
+select { 
+    width: 100%; 
+    padding: 8px; 
+    font-size: 14px; 
+    border: 1px solid lightgray; 
+    border-radius: 6px; }
+
+#calculate {
+    width: 100%; padding: 10px;
+    background: #1a73e8; color: white;
+    border: none; border-radius: 6px;
+    font-size: 15px; cursor: pointer;
+}
+#calculate:hover { 
+    background: #1558b0; 
+}
+#calculate:disabled { 
+    background: lightgray; 
+    cursor: not-allowed; 
+}
+
+#player-box { 
+    background-color: rgb(252, 249, 249);
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 15px; 
+    margin-top: 15px; 
+}
+
+.card {
+    border: solid white;
+    border-radius: 8px;
+    padding: 20px;
+}
+.card.start { 
+    border-color: blue; 
+}
+.card.sit   { 
+    border-color: #ccc; 
+    opacity: 0.75; 
+}
+
+.card h3 { 
+    font-size: 18px; 
+    margin-bottom: 4px; 
+}
+.card .info { 
+    font-size: 13px; 
+    color: #666; 
+    margin-bottom: 15px; }
+
+.card .stat { 
+    display: flex; 
+    justify-content: space-between; 
+    padding: 7px; 
+    border-bottom: 1px solid white; 
+    font-size: 14px; 
+}
+
+.points { 
+    display: flex; 
+    gap: 6px; 
+    flex-wrap: wrap; 
+    margin-top: 4px; 
+}
+.point { 
+    border-radius: 4px; 
+    padding: 3px 8px; 
+    font-size: 13px; 
+    background-color: #e4e3e3;
+}
+
+#recommendation {
+    text-align: center;
+    display: none;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 10px;
+    border: solid blue;
+}
+
+#loading { 
+    display: none; 
+    text-align: center; 
+    padding: 20px; 
+    color: #555; 
+}
